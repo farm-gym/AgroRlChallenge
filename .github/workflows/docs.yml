@@ -1,10 +1,9 @@
 name: Deploys the docs to a remote server directly on checkin.
 
-
 on:
   push:
     branches:
-      - master
+      - repo
 
 jobs:
   build:
