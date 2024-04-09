@@ -1,6 +1,26 @@
-## MiniConf
+## The Agro-RL Challenge
 
-<a href="https://mini-conf.github.io/index.html">MiniConf</a> is a virtual conference in a box. It manages the papers, schedules, and speakers for an academic conference run virtually. It can be easily integrated with interactive tools such as video, chat, and QA.
+<p> <font color="red"> ! Website under construction ! </font></p>
+<!-- ## Links -->
+<!-- Demo system: <a href='http://www.mini-conf.org'> http://www.mini-conf.org</a>
+
+Source Code: <a href='https://github.com/Mini-Conf/Mini-Conf'> https://github.com/Mini-Conf/Mini-Conf</a> -->
+
+
+## Get Started
+Join the competition: 
+<a href='https://classroom.github.com/a/nB68q6PS'> Register </a>
+
+<!-- <pre>
+> pip install -r requirements.txt
+> make run
+</pre>
+
+When you are ready to deploy run `make freeze` to get a static version of the site in the `build` folder.  -->
+
+
+
+<!-- <a href="https://mini-conf.github.io/index.html">MiniConf</a> is a virtual conference in a box. It manages the papers, schedules, and speakers for an academic conference run virtually. It can be easily integrated with interactive tools such as video, chat, and QA.
 
 <img src="https://raw.githubusercontent.com/Mini-Conf/Mini-Conf/master/miniconf.gif">
 
@@ -97,6 +117,6 @@ Feel free to cite MiniConf:
     archivePrefix={arXiv},
     primaryClass={cs.HC}
 }
-```
+``` -->
 
 

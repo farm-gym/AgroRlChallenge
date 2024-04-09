@@ -75,18 +75,18 @@ def home():
     return render_template("index.html", **data)
 
 
-@app.route("/help.html")
-def about():
-    data = _data()
-    data["FAQ"] = site_data["faq"]["FAQ"]
-    return render_template("help.html", **data)
+# @app.route("/help.html")
+# def about():
+#     data = _data()
+#     data["FAQ"] = site_data["faq"]["FAQ"]
+#     return render_template("help.html", **data)
 
 
-@app.route("/papers.html")
-def papers():
-    data = _data()
-    data["papers"] = site_data["papers"]
-    return render_template("papers.html", **data)
+# @app.route("/papers.html")
+# def papers():
+#     data = _data()
+#     data["papers"] = site_data["papers"]
+#     return render_template("papers.html", **data)
 
 
 @app.route("/paper_vis.html")
@@ -95,25 +95,25 @@ def paper_vis():
     return render_template("papers_vis.html", **data)
 
 
-@app.route("/calendar.html")
-def schedule():
-    data = _data()
-    data["day"] = {
-        "speakers": site_data["speakers"],
-        "highlighted": [
-            format_paper(by_uid["papers"][h["UID"]]) for h in site_data["highlighted"]
-        ],
-    }
-    return render_template("schedule.html", **data)
+# @app.route("/calendar.html")
+# def schedule():
+#     data = _data()
+#     data["day"] = {
+#         "speakers": site_data["speakers"],
+#         "highlighted": [
+#             format_paper(by_uid["papers"][h["UID"]]) for h in site_data["highlighted"]
+#         ],
+#     }
+#     return render_template("schedule.html", **data)
 
 
-@app.route("/workshops.html")
-def workshops():
-    data = _data()
-    data["workshops"] = [
-        format_workshop(workshop) for workshop in site_data["workshops"]
-    ]
-    return render_template("workshops.html", **data)
+# @app.route("/workshops.html")
+# def workshops():
+#     data = _data()
+#     data["workshops"] = [
+#         format_workshop(workshop) for workshop in site_data["workshops"]
+#     ]
+#     return render_template("workshops.html", **data)
 
 
 def extract_list_field(v, key):
@@ -191,10 +191,10 @@ def workshop(workshop):
     return render_template("workshop.html", **data)
 
 
-@app.route("/chat.html")
-def chat():
-    data = _data()
-    return render_template("chat.html", **data)
+# @app.route("/chat.html")
+# def chat():
+#     data = _data()
+#     return render_template("chat.html", **data)
 
 
 # FRONT END SERVING
